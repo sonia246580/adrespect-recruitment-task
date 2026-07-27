@@ -1,7 +1,24 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/layout/Header.vue'
+import Footer from './components/layout/Footer.vue'
+
+import HeroSection from './sections/HeroSection.vue'
+import ServiceSection from './sections/ServiceSection.vue'
+import AboutSection from './sections/AboutSection.vue'
+import ProjectsSection from './sections/ProjectsSection.vue'
+import InstagramSection from './sections/InstagramSection.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <Header />
+
+  <main>
+    <HeroSection />
+    <ServiceSection />
+    <AboutSection />
+    <ProjectsSection />
+    <InstagramSection />
+  </main>
+
+  <Footer />
 </template>
