@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+:root {
+  --color-green: #1b5b31;
+  --color-beige: #dcc1ab;
+  --color-cream: #f5f0ec;
+  --color-black: #111111;
+  --color-white: #ffffff;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,9 +15,9 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: #ffffff;
-  color: #111111;
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-white);
+  color: var(--color-black);
+  font-family: Inter, Arial, Helvetica, sans-serif ;
 }
 
 *, 
@@ -30,5 +38,9 @@ img {
 }
 
 button {
-  cursor: pointer
+  cursor: pointer;
+}
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
 }
