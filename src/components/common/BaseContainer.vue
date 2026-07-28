@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto w-full max-w-[1262px]">
+    <div class="w-full px-[clamp(24px,5vw,89px)]">
         <slot />
     </div>
 </template>

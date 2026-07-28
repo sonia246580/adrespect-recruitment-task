@@ -28,28 +28,30 @@ const services = [
 </script>
 
 <template>
-    <section class="bg-[#F5F0EC] py-32">
+    <section class="bg-[#F5F0EC] py-20 md:py-32">
         <BaseContainer>
-            <p class="text-xs text-[#1B5B31]">Oferta</p>
+            <div class="mx-auto w-full max-w-[1262px]">
+                <p class="text-xs text-[#1B5B31]">Oferta</p>
 
-            <h2 class="hero-title mt-4 max-w-[700px] text-[48px] leading-[1.15] text-[#111111]">
-                Działamy <span class="italic">kompleksowo</span>
-            </h2>
+                <h2 class="hero-title mt-4 max-w-[700px] text-[36px] leading-[1.15] md:text-[48px] text-[#111111]">
+                    Działamy <span class="italic">kompleksowo</span>
+                </h2>
 
-            <p class="mt-8 max-w-[710px] text-[16px] leading-[26px] text-[#111111]">
-                Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
-                nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie
-                projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie
-                posłużymy radą i wieloletnim doświadczeniem.
-            </p>
+                <p class="mt-8 w-full max-w-[710px] text-[16px] leading-[26px] text-[#111111]">
+                    Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
+                    nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie
+                    projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie
+                    posłużymy radą i wieloletnim doświadczeniem.
+                </p>
 
-            <div class="mt-20 grid gap-8 lg:grid-cols-3">
-                <ServiceCard
-                    v-for="service in services"
-                    :key="service.title"
-                    v-bind="service"
-                />
-            </div>
+                <div class="mt-12 grid gap-8 justify-between md:mt-20 lg:grid-cols-3">
+                    <ServiceCard
+                        v-for="service in services"
+                        :key="service.title"
+                        v-bind="service"
+                    />
+                </div>
+            </div>    
         </BaseContainer>
     </section>
 </template>

@@ -25,21 +25,21 @@ const iconComponent = computed(() => {
 
 <template>
     <article
-        class="flex h-full flex-col rounded-[28px] bg-white p-12 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+        class="flex w-full max-w-[378px] min-h-[370px] flex-col rounded-[28px] bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:min-h-[370px] md:p-12"
     >
-        <component :is="iconComponent" :size="40" class="text-black" />
+        <component :is="iconComponent" :size="32" class="ml-1 text-black" />
 
-        <h3 class="hero-title mt-8 text-[28px] leading-[1.2] text-[#111111]">
+        <h3 class="hero-title mt-8 text-[24px] leading-[1.2] md:text-[28px] text-[#111111]">
             {{ title }}
         </h3>
 
-        <p class="mt-6 flex-1 text-[16px] leading-[26px] text-[#111111]">
+        <p class="mt-6 flex-1 text-[15px] leading-[24px] md:text-[16px] md:leading-[26px] text-[#111111]">
             {{ description }}
         </p>
 
         <a
             href="#"
-            class="mt-10 inline-flex items-center gap-2 self-start border-b border-[#1B5B31] pb-1 text-[#1B5B31] transition hover:gap-3"
+            class="mt-8 inline-flex items-center gap-2 self-start border-b border-[#1B5B31] pb-1 text-[15px] text-[#1B5B31] transition-all duration-300 hover:gap-3 md:mt-10 md:text-[16px]"
         >
             {{ link }}
             <ArrowRight :size="20" />

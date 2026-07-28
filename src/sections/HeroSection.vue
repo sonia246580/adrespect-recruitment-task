@@ -5,10 +5,13 @@ import heroImage from '../assets/images/hero.jpg'
 </script>
 
 <template>
-    <section class="relative grid h-[calc(100vh-72px)] grid-cols-[52.22%_47.78%] overflow-hidden bg-[#DCC1AB]">
+    <section
+        class="relative grid h-[calc(100vh-72px)] overflow-hidden bg-[#DCC1AB]"
+        style="grid-template-columns: 52.22% 47.78%;"
+    >
         <div class="flex items-center">
             <div class="w-full pl-[clamp(24px,5vw,89px)]">
-                <div class="w-[599px] pr-[48px]">
+                <div class="w-full max-w-[599px] pr-[48px]">
                     <h1 class="hero-title w-full text-[64px] font-medium leading-[70px] text-[#111111]">
                         <span class="block">Nowoczesna</span>
                         <span class="block">aranżacja</span>
