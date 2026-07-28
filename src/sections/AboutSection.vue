@@ -14,7 +14,7 @@ import aboutImage from '../assets/images/about.jpg'
         </div>
 
         <div class="text-[#F5F0EC]">
-            <div class="flex w-full max-w-[596px] flex-col pl-[96px] pt-[135px] text-[#F5F0EC]">
+            <div class="flex h-full w-full max-w-[596px] flex-col justify-center pl-[96px] text-[#F5F0EC]">
                 <p class="text-[12px] leading-[18px] text-[#F5F0EC]">
                     O firmie
                 </p>
@@ -37,7 +37,7 @@ import aboutImage from '../assets/images/about.jpg'
 
                 <a
                     href="#"
-                    class="mt-14 inline-flex items-center gap-3 rounded-full border border-[#F5F0EC] px-6 py-[14px] text-[16px] transition-all duration-300 hover:bg-[#F5F0EC] hover:text-[#1B5B31]"
+                    class="mt-14 inline-flex h-[50px] w-[194px] items-center justify-center gap-2 rounded-[200px] border border-[#F5F0EC]"
                 >
                     Poznaj nas bliżej
                     <ArrowRight :size="20" :stroke-width="1.5" />

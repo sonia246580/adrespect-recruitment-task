@@ -6,7 +6,7 @@ import heroImage from '../assets/images/hero.jpg'
 
 <template>
     <section
-        class="relative grid h-[calc(100vh-72px)] overflow-hidden bg-[#DCC1AB]"
+        class="relative grid h-[calc(100vh-64px)] overflow-hidden bg-[#DCC1AB]"
         style="grid-template-columns: 52.22% 47.78%;"
     >
         <div class="flex items-center">
@@ -38,7 +38,7 @@ import heroImage from '../assets/images/hero.jpg'
             </div>
         </div>
 
-        <div class="relative min-h-[808px] overflow-hidden">
+        <div class="relative h-full overflow-hidden">
             <img
                 :src="heroImage"
                 alt="Nowoczesna aranżacja Twojego ogrodu"

@@ -1,22 +1,29 @@
 <template>
-    <section class="bg-[#F5F0EC] py-16">
+    <section class="bg-[#F5F0EC] py-[60px]">
         <div
-            class="mx-auto flex min-h-[312px] w-full max-w-[1040px] items-center justify-between bg-[#1B5B31] px-24 text-[#F5F0EC]"
+            class="mx-auto flex h-[358px] w-full max-w-[1040px] items-center gap-16 bg-[#1B5B31] px-[110px] text-[#F5F0EC]"
         >
-            <h2 class="hero-title max-w-[610px] text-[40px] font-normal leading-[1.2]">
-                Zostańmy w kontakcie!<br />
-                Znajdziesz nas na <span class="italic">Instagramie.</span>
-            </h2>
+            <div class="w-[599px] shrink-0">
+                <h2 class="hero-title max-w-[599px] shrink-0 text-[40px] font-normal leading-[48px] tracking-[-0.02em]">
+                    <span class="hero-title">
+                        Zostańmy w kontakcie!<br />
+                        Znajdziesz nas na
+                    </span>    
+                    <span class="font-medium italic" style="font-family: 'Inter', sans-serify;">
+                        Instagramie.
+                    </span>
+                </h2>
+            </div>
 
-            <div class="w-[190px]">
-                <p class="text-[16px] leading-[24px]">
+            <div class="flex h-[118px] w-[157px] flex-col items-start gap-6">
+                <p class="text-[16px] leading-[24px] tracking-[-0.01em]">
                     Śledź nasze<br />
                     najnowsze realizacje!
                 </p>
 
                 <a
                     href="#"
-                    class="mt-6 inline-flex rounded-full bg-[#F5F0EC] px-6 py-3 text-[16px] text-[#1B5B31] transition hover:-translate-y-1"
+                    class="inline-flex min-h-[46px] w-[124px] items-center justify-center rounded-[200px] px-[24px] py-[12px] bg-[#F5F0EC] text-[16px] leading-none text-[#1B5B31] transition duration-300 hover:-translate-y-1"
                 >
                     Instagram
                 </a>
