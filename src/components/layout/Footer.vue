@@ -6,7 +6,7 @@ import BaseContainer from '../common/BaseContainer.vue';
 
 <template>
     <footer class="bg-[#111111] text-[#F5F0EC]">
-        <BaseContainer class="py-20"
+        <BaseContainer class="py-20">
             <div class="flex items-center justify-between pb-12">
                 <img
                     :src="logo"

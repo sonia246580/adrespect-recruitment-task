@@ -1,17 +1,17 @@
 <script setup>
 import logo from '../../assets/images/logo.svg'
-import BaseContainer from '../common/BaseContainer.vue'
+import BaseContainer from '../common/BaseContainer.vue';
 import { ChevronDown, Search } from 'lucide-vue-next';
 </script>
 
 <template>
-    <header class="bg-white">
-        <BaseContainer class="flex items-center justify-between py-5">
+    <header class="h-[72px] bg-white">
+        <BaseContainer class="flex h-full items-center justify-between">
             <a href="#" aria-label="Strona główna">
                 <img
                 :src="logo"
                 alt="giarddesign"
-                class="h-auto w-[115px]"
+                class="h-auto w-[114.37px]"
                 />
             </a>
             
@@ -21,7 +21,7 @@ import { ChevronDown, Search } from 'lucide-vue-next';
                         <li>
                             <button
                                 type="button"
-                                class="flex items-center gap-1 text-[14px] font-normal"
+                                class="flex items-center gap-1 text-[14px] font-normal leading-none"
                             >
 
                                 Oferta
@@ -30,19 +30,19 @@ import { ChevronDown, Search } from 'lucide-vue-next';
                         </li>
 
                         <li>
-                            <a href="#" class="text-[14px] font-normal">
+                            <a href="#" class="text-[14px] font-normal leading-none">
                                 O firmie
                             </a>
                         </li>
 
                         <li>
-                            <a href="#" class="text-[14px] font-normal">
+                            <a href="#" class="text-[14px] font-normal leading-none">
                                 Realizacje
                             </a>
                         </li>
 
                         <li>
-                            <a href="#" class="text-[14px] font-normal">
+                            <a href="#" class="text-[14px] font-normal leading-none">
                                 Kontakt
                             </a>
                         </li>
