@@ -44,3 +44,7 @@ button {
 .hero-title {
   font-family: "Montserrat", sans-serif;
 }
+
+.hero-linear-gradient {
+  background: linear-gradient(rgba(17, 17, 17, 0.42) 0%, rgba(17, 17, 17, 0.18) 38%, rgba(17, 17, 17, 0.72) 100%);
+}
