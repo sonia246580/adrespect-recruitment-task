@@ -11,7 +11,7 @@ import { ChevronDown, Search } from 'lucide-vue-next';
                 <img
                 :src="logo"
                 alt="giarddesign"
-                class="h-auto w-[114.37px]"
+                class="h-auto w-[128px]"
                 />
             </a>
 
@@ -24,9 +24,9 @@ import { ChevronDown, Search } from 'lucide-vue-next';
                 <nav aria-label="Główna nawigacja" class="text-[14px] font-normal">
                     <ul class="flex items-center gap-12">
                         <li>
-                            <button class="flex items-center-1">
+                            <button class="flex items-center gap-1">
                                 Oferta
-                                <ChevronDown :size="14" :stroke-width="1.5" />
+                                <ChevronDown :size="24" :stroke-width="1.5" />
                             </button>
                         </li>
 
@@ -47,4 +47,6 @@ import { ChevronDown, Search } from 'lucide-vue-next';
             </div>
         </BaseContainer>
     </header>
+
+    
 </template>
