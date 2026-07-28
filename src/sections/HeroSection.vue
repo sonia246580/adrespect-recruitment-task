@@ -51,7 +51,7 @@ import heroImage from '../assets/images/hero.jpg'
                 <button
                     type="button"
                     aria-label="Poprzedni slajd"
-                    class="flex h-16 lg:h-32 w-16 lg:w-32 items-center justify-center"
+                    class="flex h-16 lg:h-18 w-16 lg:w-18 items-center justify-center"
                 >
                     <ArrowLeft :size="32" :stroke-width="1.5" />
                 </button>
@@ -61,7 +61,7 @@ import heroImage from '../assets/images/hero.jpg'
                     aria-label="Następny slajd"
                     class="flex h-16 lg:h-18 w-16 lg:w-18 items-center justify-center"
                 >
-                <ArrowRight :size="32" :stroke-width="1.5" />
+                    <ArrowRight :size="32" :stroke-width="1.5" />
                 </button>
             </div>
         </div>

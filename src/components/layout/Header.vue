@@ -14,48 +14,36 @@ import { ChevronDown, Search } from 'lucide-vue-next';
                 class="h-auto w-[114.37px]"
                 />
             </a>
+
+            <div class="flex lg:hidden items-center gap-10">
+                <Search :size="24" :stroke-width="1.5" />
+                <Menu :size="24" :stroke-width="1.5" />
+            </div>
             
-            <div class="flex items-center gap-10">
-                <nav aria-label="Główna nawigacja">
+            <div class="hidden lg:flex items-center gap-10">
+                <nav aria-label="Główna nawigacja" class="text-[14px] font-normal">
                     <ul class="flex items-center gap-12">
                         <li>
-                            <button
-                                type="button"
-                                class="flex items-center gap-1 text-[14px] font-normal leading-none"
-                            >
-
+                            <button class="flex items-center-1">
                                 Oferta
                                 <ChevronDown :size="14" :stroke-width="1.5" />
                             </button>
                         </li>
 
                         <li>
-                            <a href="#" class="text-[14px] font-normal leading-none">
-                                O firmie
-                            </a>
+                            <a href="#">O firmie</a>
                         </li>
 
                         <li>
-                            <a href="#" class="text-[14px] font-normal leading-none">
-                                Realizacje
-                            </a>
+                            <a href="#">Realizacje</a>
                         </li>
 
                         <li>
-                            <a href="#" class="text-[14px] font-normal leading-none">
-                                Kontakt
-                            </a>
+                            <a href="#">Kontakt</a>
                         </li>
                     </ul>
                 </nav>
-
-                <button
-                    type="button"
-                    aria-label="Szukaj"
-                    class="flex h-6 w-6 items-center justify-center"
-                >
-                    <Search :size="24" :stroke-width="1.5" />
-                </button>
+                <Search :size="24" :stroke-width="1.5" /> 
             </div>
         </BaseContainer>
     </header>
