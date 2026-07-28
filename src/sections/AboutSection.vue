@@ -4,17 +4,12 @@ import aboutImage from '../assets/images/about.jpg'
 </script>
 
 <template>
-    <section class="grid min-h-[860px] grid-cols-2 bg-[#1B5B31]">
-        <div class="min-h-[860px] overflow-hidden">
-            <img
-                :src="aboutImage"
-                alt="Nowoczesny ogród przy domu"
-                class="h-full w-full object-cover"
-            />
-        </div>
+    <section class="relative grid min-h-[860px] grid-cols-1 lg:grid-cols-2 lg:bg-[#1B5B31]">
+		<div class="absolute top-0 left-0 -z-10 w-full h-full hero-linear-gradient lg:hidden"></div>
+		<div class="absolute inset-0 bg-[url('./assets/images/about.jpg')] bg-position-center bg-cover bg-no-repeat -z-20 lg:z-0 lg:left-1/2 lg:w-1/2"></div>
 
-        <div class="text-[#F5F0EC]">
-            <div class="flex h-full w-full max-w-[596px] flex-col justify-center pl-[96px] text-[#F5F0EC]">
+        <div class="text-[#F5F0EC] mt-auto pb-16 sm:mt-0 sm:pb-0">
+            <div class="flex h-full w-full lg:max-w-[596px] flex-col justify-center px-[clamp(24px,5vw,89px)] text-[#F5F0EC]">
                 <p class="text-[12px] leading-[18px] text-[#F5F0EC]">
                     O firmie
                 </p>

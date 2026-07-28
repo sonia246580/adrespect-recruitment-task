@@ -12,11 +12,11 @@ import InstagramSection from './sections/InstagramSection.vue'
   <Header />
 
   <main>
-    <HeroSection />
-    <ServiceSection />
-    <AboutSection />
-    <ProjectsSection />
-    <InstagramSection />
+    <HeroSection/>
+    <ServiceSection id="services"/>
+    <AboutSection id="about"/>
+    <ProjectsSection id="projects"/>
+    <InstagramSection id="contact"/>
   </main>
 
   <Footer />

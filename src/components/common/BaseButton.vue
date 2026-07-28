@@ -31,8 +31,9 @@ const variantClasses = computed(() => {
         },
     }
 
-    return variants[props.variant][props.outline ? 'outline' : 'solid']
+     return variants[props.variant][props.outline ? 'outline' : 'solid']
 })
+
 </script>
 
 <template>

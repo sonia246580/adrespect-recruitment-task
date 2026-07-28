@@ -44,7 +44,7 @@ const services = [
                     posłużymy radą i wieloletnim doświadczeniem.
                 </p>
 
-                <div class="mt-12 grid gap-8 justify-between md:mt-20 lg:grid-cols-3">
+                <div class="mt-12 grid gap-8 justify-between md:mt-20 grid-cols-1 lg:grid-cols-3">
                     <ServiceCard
                         v-for="service in services"
                         :key="service.title"

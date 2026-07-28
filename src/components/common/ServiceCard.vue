@@ -25,7 +25,7 @@ const iconComponent = computed(() => {
 
 <template>
     <article
-        class="flex w-full max-w-[378px] min-h-[370px] flex-col rounded-[28px] bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:min-h-[370px] md:p-12"
+        class="flex w-full lg:max-w-[378px] lg:min-h-[370px] flex-col rounded-[28px] bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:min-h-[370px] md:p-12"
     >
         <component :is="iconComponent" :size="32" class="ml-1 text-black" />
 
