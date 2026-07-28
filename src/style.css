@@ -48,3 +48,26 @@ button {
 .hero-linear-gradient {
   background: linear-gradient(rgba(17, 17, 17, 0.42) 0%, rgba(17, 17, 17, 0.18) 38%, rgba(17, 17, 17, 0.72) 100%);
 }
+
+.projects-grid {
+    position: relative;
+}
+
+.projects-grid::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 180px;
+    pointer-events: none;
+    z-index: 5;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(220, 193, 171, 0) 0%,
+        rgba(220, 193, 171, 0.25) 35%,
+        rgba(220, 193, 171, 0.75) 70%,
+        #DCC1AB 100%
+    );
+}

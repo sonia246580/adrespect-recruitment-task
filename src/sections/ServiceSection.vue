@@ -34,7 +34,7 @@ const services = [
                 <p class="text-xs text-[#1B5B31]">Oferta</p>
 
                 <h2 class="hero-title mt-4 max-w-[700px] text-[36px] leading-[1.15] md:text-[48px] text-[#111111]">
-                    Działamy <span class="italic">kompleksowo</span>
+                    Działamy <span class="italic font-medium">kompleksowo</span>
                 </h2>
 
                 <p class="mt-8 w-full max-w-[710px] text-[16px] leading-[26px] text-[#111111]">
